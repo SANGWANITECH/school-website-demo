@@ -147,7 +147,7 @@ export default function ContactFooter() {
     target="_blank"
     className="hover:text-teal-400"
   >
-   Built by <span className="text-blue-600/50"> Ram-Tech</span>
+   Built by <span className="text-teal-600"> Ram-Tech</span>
   </a>
 </div>
 
