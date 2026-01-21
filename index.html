@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="/favicon.png" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Mobile friendly -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Default SEO -->
+    <title>Sample Secondary School | Excellence in Education</title>
+    <meta
+      name="description"
+      content="Sample Secondary School is committed to academic excellence, discipline, and character development for a brighter future."
+    />
+
+    <!-- Open Graph (WhatsApp / Facebook preview) -->
+    <meta property="og:title" content="Sample Secondary School" />
+    <meta
+      property="og:description"
+      content="A leading secondary school committed to academic excellence and student success."
+    />
+    <meta property="og:image" content="https://Sample-secondary-school.netlify.app/logo1.png" />
+    <meta property="og:url" content="https://Sample-secondary-school.netlify.app" />
+    <meta property="og:type" content="website" />
+
+    <!-- Twitter preview -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Sample Secondary School" />
+    <meta
+      name="twitter:description"
+      content="Quality secondary education focused on excellence, discipline, and leadership."
+    />
+    <meta name="twitter:image" content="https://Sample-secondary-school.netlify.app/logo1.png" />
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+
+
+    <div id="root"></div>
+
+    <script>
+      (function(){
+        if(!window.chatbase || window.chatbase("getState") !== "initialized"){
+          window.chatbase = (...arguments) => {
+            if(!window.chatbase.q){ window.chatbase.q = [] }
+            window.chatbase.q.push(arguments)
+          };
+          window.chatbase = new Proxy(window.chatbase, {
+            get(target, prop){
+              if(prop === "q"){ return target.q }
+              return (...args) => target(prop, ...args)
+            }
+          })
+        }
+        const onLoad = function(){
+          const script = document.createElement("script");
+          script.src = "https://www.chatbase.co/embed.min.js";
+          script.id = "3CGeQXUcd4ZZJ8Ywj4rpr";
+          script.domain = "www.chatbase.co";
+          document.body.appendChild(script)
+        };
+        if(document.readyState === "complete"){
+          onLoad()
+        } else {
+          window.addEventListener("load", onLoad)
+        }
+      })();
+    </script>
+  
+  </body>
+  
+
+  </body>
+</html>
