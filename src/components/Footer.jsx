@@ -142,7 +142,7 @@ export default function ContactFooter() {
             © 2025 Sample pvt School. All rights reserved.
           </span>
           <div className="text-center text-xs text-gray-500 py-2">
-  Built by <a
+  <a
     href="https://ram-tech.netlify.app"
     target="_blank"
     className="hover:text-teal-400"
